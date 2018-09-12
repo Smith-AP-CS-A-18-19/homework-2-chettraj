@@ -39,6 +39,7 @@ public class Homework2 {
 		r2.translate(15, 25);
 		r3 = new Rectangle();
 		r3.translate("Far, far away");
+		
 		return r3;
 	}
 
