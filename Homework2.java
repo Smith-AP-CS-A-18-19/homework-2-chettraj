@@ -1,3 +1,4 @@
+// chettraj
 /*
  * First and Last Names
  */
@@ -8,15 +9,29 @@ public class Homework2 {
 	private String s;
 	public Homework2(String q){
 		q = s;
+		/* Your assignment should be the other way
+		 * You are assigning the value of q to s;
+		 * your code currently assigns s to q
+		 */
 	}
 
 	public String uppercase(){
+		/* This method should operate on the string
+		 * you have saved, which is s, not a
+		 * new string you create
+		 */
 		String hob = "hello";
 			String blob = hob.toUpperCase();
 			return blob;
 
 		}
 		public String strip(String loop){
+			/* This should call the replace method
+			 * several times, first replacing all
+			 * of the spaces, then the periods, etc.
+			 * Each time, you need to save the result,
+			 * and then return the final result
+			 */
 			String s1 = "Hi! I love pineapples, trees, and hugs.";
 			String s2 = s1.replace("Hi! I love pineapples, trees, and hugs", "HiIlovepineapplestreesandhugs");
 			return s2;
@@ -68,6 +83,10 @@ public class Homework2 {
 	 * parameter Rectangle
 	 */
 	 	public double getPerimeter(Rectangle rect){
+			/* This should calculate the perimeter of the
+			 * Rectangle that is passed in (rect) by
+			 * calling the getWidth and getHeight methods
+			 */
 			Rectangle oop = new Rectangle(10, 4, 5, 6);
 			double arf = 10*2 + 4*2;
 			return arf;
